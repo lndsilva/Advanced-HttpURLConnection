@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Advanced-HttpURLConnection</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="criar_uma_nova_conta_cadastrar">Criar uma nova conta? Cadastrar.</string>
+</resources>
