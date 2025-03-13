@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">Advanced-HttpURLConnection</string>
+    <string name="app_name">Marketplace</string>
     <string name="login">Login</string>
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="criar_uma_nova_conta_cadastrar">Criar uma nova conta? Cadastrar.</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="insira_seu_nome">Insira seu nome</string>
+    <string name="insira_seu_e_mail">Insira seu e-mail</string>
+    <string name="insira_seu_usuario">Insira seu usuário</string>
+    <string name="insira_sua_senha">Insira sua senha</string>
 </resources>

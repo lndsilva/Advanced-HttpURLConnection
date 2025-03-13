@@ -7,20 +7,23 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".CadastrarUsuarioActivity">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="80dp"
-        android:src="@drawable/logo" />
+        android:layout_margin="80sp"
+        android:text="@string/cadastrar"
+        android:textColor="#3D147A"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtUsuario"
+        android:id="@+id/txtCadNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/usuario"
+        android:hint="@string/insira_seu_nome"
         android:padding="10sp"
         app:endIconMode="clear_text">
 
@@ -31,10 +34,38 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtSenha"
+        android:id="@+id/txtCadEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/senha"
+        android:hint="@string/insira_seu_e_mail"
+        android:padding="10sp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="100" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtCadUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/insira_seu_usuario"
+        android:padding="10sp"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="100" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtCadSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/insira_sua_senha"
         android:padding="10sp"
         app:endIconMode="password_toggle">
 
@@ -45,27 +76,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnCadUsuario"
         style="@style/Widget.MaterialComponents.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20sp"
         android:layout_marginBottom="20sp"
-        android:text="@string/login"
+        android:text="@string/cadastrar"
         android:textAllCaps="true" />
 
-    <TextView
 
-        android:id="@+id/txtCadLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:cursorVisible="true"
-        android:text="@string/criar_uma_nova_conta_cadastrar"
-        android:textStyle="bold"
-        tools:ignore="TextViewEdits">
-
-        <requestFocus />
-    </TextView>
 </LinearLayout>
