@@ -53,7 +53,6 @@ public class LoginActivity extends AppCompatActivity {
             }
             if (TextUtils.isEmpty(senha)) {
                 txtSenha.setError("Por favor insira a senha do usuário");
-                txtSenha.setPasswordVisibilityToggleEnabled(true);
                 txtSenha.requestFocus();
             }
 

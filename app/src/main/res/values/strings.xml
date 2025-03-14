@@ -10,4 +10,11 @@
     <string name="insira_seu_e_mail">Insira seu e-mail</string>
     <string name="insira_seu_usuario">Insira seu usuário</string>
     <string name="insira_sua_senha">Insira sua senha</string>
+    <string name="cat_logo_de_produtos">Catálogo de produtos</string>
+    <string name="frutas">Frutas</string>
+    <string name="legumes">Legumes</string>
+    <string name="a_ougue">Açougue</string>
+    <string name="padaria">Padaria</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="limpeza">Limpeza</string>
 </resources>
